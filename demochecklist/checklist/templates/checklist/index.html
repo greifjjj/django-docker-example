@@ -29,6 +29,7 @@
             <small>{{ task.task_description}}</small>
             <a href="{% url "done" task.id %}" role="button">Erledigt</a>
           </li>
+          <br>
         {% endif %}
       {% endfor %}
     </ul>
