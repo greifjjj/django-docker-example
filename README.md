@@ -14,8 +14,9 @@ in venv (.env) django installieren: pip install django
 
 Projekt anlegen: django-admin startproject demochecklist
 
-Starten: python manage.py runserver
+Server Testen / Starten: python manage.py runserver
 DB initialisieren: python manage.py migrate
 
+Neue App erstellen: python manage.py startapp checklist
 
 ```
